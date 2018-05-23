@@ -1,0 +1,4 @@
+Sample project from:
+http://maven.apache.org/guides/getting-started/index.html
+
+mvn -B archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DgroupId=com.mycompany.app -DartifactId=my-app
