@@ -11,4 +11,5 @@ www.baeldung.com/
 
 
 ## Example programs
-A simple starter app  (../my-app)
+A simple starter app  (./my-app)
+Another simpe program (./simpe)
