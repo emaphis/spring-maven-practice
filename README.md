@@ -13,3 +13,5 @@ www.baeldung.com/
 ## Example programs
 A simple starter app  (./my-app)
 Another simpe program (./simple)
+A Java 11 App (./test-app) -
+ mvn archetype:generate -DgroupId=org.emaphis.app -DartifactId=test-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
