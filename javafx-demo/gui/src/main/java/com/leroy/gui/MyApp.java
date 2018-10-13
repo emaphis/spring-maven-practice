@@ -22,6 +22,4 @@ public class MyApp extends Application {
         primaryStage.setScene(scene);
         primaryStage.show();
     }
-
-    
 }
