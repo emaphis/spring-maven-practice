@@ -1,5 +1,5 @@
 module books {
-    requires jackson.databind;
-    requires jackson.core;
-    opens javamodularity.maven.example;
+   requires com.fasterxml.jackson.databind;
+   requires com.fasterxml.jackson.core;
+   opens javamodularity.maven.example;
 }
