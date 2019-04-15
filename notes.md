@@ -61,3 +61,11 @@ java -cp target\simple-1.0-SNAPSHOT.jar com.mycompany.app.App
   </plugins>
 </build>
 '''
+
+## Error logging
+
+mvn clean install -X // logging
+mvn dependency:tree
+mvn help:system   // environment variables.
+mvn help:effective-pom  // effective POM file
+mvn dependency:build-classpath  // classpath

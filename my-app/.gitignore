@@ -109,6 +109,8 @@ tmp/
 *.bak
 *.swp
 *~.nib
+.lsp4xml/
+Usersemaphis/
 
 local.properties
 .settings/
