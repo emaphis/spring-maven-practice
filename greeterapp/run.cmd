@@ -1,0 +1,1 @@
+java --module-path mods -m com.greetings/com.greetings.Main
