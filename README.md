@@ -20,7 +20,8 @@ A Java 11 App (./test-app)
 Example of a maven project using Java 9 modules. (./java9-modules)
 A JavaFX 11 example (./javafx-demo)
 
-## Java 8 Modular exampes
+## Java 9 Modular exampes
 
 Java 9 Modular program. (./greeterapp)
 Another example. (./jpmshello)
+Modularity examples from "Java9 Modularity" (./modularity/)
