@@ -6,7 +6,7 @@
         <artifactId>easytext</artifactId>
         <version>1.0</version>
     </parent>
-    <artifactId>easytext</artifactId>
+    <artifactId>CLI</artifactId>
     <packaging>jar</packaging>
 
     <properties>
@@ -40,5 +40,5 @@
       </plugin>
     </plugins>
   </build>
-
+    <name>CLI</name>
 </project>
