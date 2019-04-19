@@ -8,8 +8,37 @@
     </parent>
     <artifactId>easytext</artifactId>
     <packaging>jar</packaging>
+
     <properties>
         <maven.compiler.source>12</maven.compiler.source>
         <maven.compiler.target>12</maven.compiler.target>
     </properties>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>1.6.0</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>exec</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <executable>${JAVA_HOME}/bin/java</executable>
+          <arguments>
+            <argument>--module-path</argument>
+            <modulepath/>
+            <argument>--module</argument>
+            <argument>easytext/javamodularity.easytext.Main</argument>
+            <argument>${easytext.file}</argument>
+          </arguments>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
 </project>
