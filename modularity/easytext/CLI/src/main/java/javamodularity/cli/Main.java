@@ -1,5 +1,5 @@
 
-package javamodularity.easytext;
+package javamodularity.cli;
 
 import java.io.IOException;
 import java.nio.charset.Charset;
