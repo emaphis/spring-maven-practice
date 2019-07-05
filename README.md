@@ -6,8 +6,8 @@ Small projects for practicing Maven, Java 9 Modules, Spring, JavaEE, JavaFX
 
 ### Maven
 
-http://maven.apache.org/guides/getting-started/index.html
-https://itnext.io/writing-a-full-featured-maven-pom-f5b874eef312?sk=a208ffef0355c5a0910076c7e10d6252
+<http://maven.apache.org/guides/getting-started/index.html>
+<https://itnext.io/writing-a-full-featured-maven-pom-f5b874eef312?sk=a208ffef0355c5a0910076c7e10d6252>
 
 ### Spring
 
