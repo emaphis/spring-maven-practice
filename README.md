@@ -13,6 +13,8 @@ Small projects for practicing Maven, Java 9 Modules, Spring, JavaEE, JavaFX
 
 www.baeldung.com/
 
+learn JSPs and Servelets first.
+
 ### JavaEE exmples
 
 ./JavaEE

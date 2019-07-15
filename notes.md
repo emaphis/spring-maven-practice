@@ -28,7 +28,7 @@ java -cp target\simple-1.0-SNAPSHOT.jar com.mycompany.app.App
 <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-compiler-plugin</artifactId>
-    <version>3.8.0</version>
+    <version>3.8.1</version>
     <configuration>
         <release>11</release>   <!-- or <release>10</release>-->
     </configuration>

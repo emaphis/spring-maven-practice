@@ -129,3 +129,5 @@ local.properties
 
 # Code Recommenders
 .recommenders/
+/JavaEE/JavaEE7/jsfapp/nbproject/private/
+/JavaEE/JavaEE7/jsfapp/build/
