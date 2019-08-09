@@ -131,3 +131,7 @@ local.properties
 .recommenders/
 /JavaEE/JavaEE7/jsfapp/nbproject/private/
 /JavaEE/JavaEE7/jsfapp/build/
+/JavaEE/Servlets_JSP/TestApp/nbproject/private/
+/JavaEE/Servlets_JSP/TestApp/build/
+/JavaEE/Servlets_JSP/HelloWeb/nbproject/private/
+/JavaEE/Servlets_JSP/HelloWeb/build/
