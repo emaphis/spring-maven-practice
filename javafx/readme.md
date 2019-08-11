@@ -6,6 +6,8 @@ Basic JavaFX example, basic build tools (./hellofx)
 
 Basic JavaFX example using Maven: (./hellofx_mvn)
 
+Modular JavaFX example (./HelloFXMod)
+
 ## Other examples
 
 JavaFX example using maven (./javafx-demo)
