@@ -23,6 +23,7 @@ A simple starter app  (./my-app)
 Another simpe program (./simple)
 A Java 11 App (./test-app)
 Example of a maven project using Java 9 modules. (./java9-modules)s
+Multi-modulare maven web-app: ./app-parent
 
 ## Java 9 Modular exampes
 
