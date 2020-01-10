@@ -33,6 +33,7 @@
     <module>entitymodule</module>
     <module>daomodule</module>
     <module>userdaomodule</module>
+    <module>mainappmodule</module>
   </modules>
 
 </project>

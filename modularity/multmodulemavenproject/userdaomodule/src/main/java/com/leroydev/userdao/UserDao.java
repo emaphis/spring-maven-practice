@@ -20,6 +20,10 @@ public class UserDao implements Dao<User> {
         this.users = new HashMap<>();
     }
 
+    public UserDao(Map<Integer, User> users) {
+        this.users = users;
+    }
+
     @Override
     public Optional<User> findById(int id) {
         return Optional.ofNullable(users.get(id));
