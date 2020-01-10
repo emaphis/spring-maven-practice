@@ -1,15 +1,10 @@
-
 package com.leroydev.entity;
 
-/**
- *
- * @author emaphis
- */
 public class User {
 
     private final String name;
 
-    public User(String name) {
+    public User(final String name) {
         this.name = name;
     }
 
@@ -21,5 +16,4 @@ public class User {
     public String toString() {
         return "Name: " + name;
     }
-
 }

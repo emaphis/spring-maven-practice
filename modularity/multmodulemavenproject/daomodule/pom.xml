@@ -3,15 +3,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.leroydev.multmodulemavenproject</groupId>
-        <artifactId>multmodulemavenproject</artifactId>
+        <groupId>com.leroydev.multimodulemavenproject</groupId>
+        <artifactId>multimodulemavenproject</artifactId>
         <version>1.0</version>
     </parent>
 
-    <groupId>com.leroydev.daomodule</groupId>
+    <groupId>com.leroydev.dao</groupId>
     <artifactId>daomodule</artifactId>
-    <packaging>jar</packaging>
     <version>1.0</version>
+    <packaging>jar</packaging>
     <name>daomodule</name>
- 
+    <url>https://gitup.com/emaphis</url>
+
 </project>

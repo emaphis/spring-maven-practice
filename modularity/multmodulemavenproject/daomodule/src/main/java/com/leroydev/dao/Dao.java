@@ -1,17 +1,17 @@
-
 package com.leroydev.dao;
 
 import java.util.List;
 import java.util.Optional;
 
 /**
+ * Dao interface
  *
- * @author emaphis
- * @param <T>
+ * @param <T> Entity to Store
  */
 public interface Dao<T> {
 
-    Optional<T> findByID(int id);
+    Optional<T> findById(int id);
 
     List<T> findAll();
+
 }
