@@ -40,8 +40,9 @@
                 <configuration>
                     <release>14</release>
                     <compilerArgs>
-                        --enable-preview
+                        <arg>--enable-preview</arg>
                     </compilerArgs>
+                    <showDeprecation>true</showDeprecation>
                 </configuration>
             </plugin>
             <plugin>
