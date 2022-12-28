@@ -32,3 +32,5 @@ Another example. (./jpmshello)
 Modularity examples from "Java9 Modularity" (./modularity/)
 
 ## JavaFX examles (./javafx)
+
+## Jakarta CDI examples (./cdi)
