@@ -15,7 +15,9 @@ www.baeldung.com/
 
 learn JSPs and Servelets first.
 
-### JavaEE exmples (./JavaEE)
+## JavaEE exmples (./JavaEE)
+
+### Beginning Java EE 7 (./goncalves)
 
 ## Example programs
 
