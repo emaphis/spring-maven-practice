@@ -1,13 +1,15 @@
 
-package org.agoncal.book.javaee7.chapter02.ex04;
+package org.agoncal.book.javaee7.chapter02.ex06;
 
 import java.util.Random;
+import javax.enterprise.inject.Default;
 
 /**
- *
+ * The IsbnGenerator Bean with the @Default Qualifier
  * @author emaph
  */
-public class IsbnGenerator04 implements NumberGenerator04 {
+@Default
+public class IsbnGenerator06 implements NumberGenerator06 {
 
     @Override
     public String generateNumber() {

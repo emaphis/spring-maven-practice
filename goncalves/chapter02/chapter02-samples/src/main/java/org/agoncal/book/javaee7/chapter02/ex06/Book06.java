@@ -1,21 +1,21 @@
-package org.agoncal.book.javaee7.chapter02.ex04;
+package org.agoncal.book.javaee7.chapter02.ex06;
 
 
 /**
  *
  * @author emaph
  */
-public class Book04 {
+public class Book06 {
 
     private String title;
     private Float price;
     private String description;
     private String isbn;
 
-    public Book04() {
+    public Book06() {
     }
 
-    public Book04(String title, Float price, String description) {
+    public Book06(String title, Float price, String description) {
         this.title = title;
         this.price = price;
         this.description = description;

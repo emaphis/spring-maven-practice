@@ -1,22 +1,24 @@
 
-package org.agoncal.book.javaee7.chapter02.ex04;
+package org.agoncal.book.javaee7.chapter02.ex06;
 
+import javax.enterprise.inject.Default;
 import javax.inject.Inject;
 
 /**
- *
+ * Default Injector
  * @author emaph
  */
-public class BookService04 {
+public class BookService06 {
 
     @Inject
-    private NumberGenerator04 numberGenerator;
+    @Default
+    private NumberGenerator06 numberGenerator;
 
     // Lifecycle methods
 
     // Business methods
-    public Book04 createBook(String title, Float price, String description) {
-        Book04 book = new Book04(title, price, description);
+    public Book06 createBook(String title, Float price, String description) {
+        Book06 book = new Book06(title, price, description);
         book.setIsbn(numberGenerator.generateNumber());
         return book;
     }
